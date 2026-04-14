@@ -24,6 +24,16 @@ body {
   background-color: #ede3dd;
   border-bottom: 1px solid #d4c4bc;
   padding: 18px 0;
+
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+
+  box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+}
+
+section {
+  scroll-margin-top: 90px;
 }
 
 .header-inner {
@@ -350,6 +360,16 @@ body {
 .footer-copy p {
   color: #eadfd9;
   font-size: 0.95rem;
+}
+
+.form-disclaimer {
+  font-size: 0.85rem;
+  color: #6b5d66;
+  line-height: 1.5;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 /* Responsive */
