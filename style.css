@@ -39,12 +39,24 @@ body {
   box-shadow: 0 2px 8px rgba(0,0,0,0.03);
 }
 
+.brand-logo img {
+  height: 60px;
+  display: block;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+}
+
 section {
   scroll-margin-top: 90px;
 }
 
 section h2 {
-  margin-bottom: 26px;
+  font-size: 1.85rem;
+  line-height: 1.3;
+  margin-bottom: 32px;
 }
 
 .header-inner {
@@ -52,14 +64,6 @@ section h2 {
   justify-content: space-between;
   align-items: center;
   gap: 24px;
-}
-
-.brand-name {
-  text-decoration: none;
-  font-size: 1.5rem;
-  font-weight: 700;
-  color: #5a4a56;
-  letter-spacing: 0.4px;
 }
 
 .brand-tagline {
@@ -117,16 +121,17 @@ section h2 {
 }
 
 .hero-text h1 {
-  font-size: 2rem;
+  font-size: 2.2rem;
   color: #5a4a56;
   margin-bottom: 20px;
-  line-height: 1.2;
+  line-height: 1.25;
 }
 
 .hero-text p {
   color: #4a5560;
   margin-bottom: 24px;
   max-width: 520px;
+  font-size: 1.05rem;
 }
 
 .hero-buttons {
@@ -190,7 +195,7 @@ section h2 {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 1px;
-  margin-bottom: 14px;
+  margin-bottom: 10px;
 }
 
 /* About */
@@ -215,6 +220,11 @@ section h2 {
   color: #4a5560;
   margin-bottom: 16px;
   max-width: 1100px;
+}
+
+.hero-text p,
+.about p {
+  max-width: 65ch;
 }
 
 /* Practice Areas */
@@ -327,9 +337,14 @@ section h2 {
 }
 
 .contact-block h3 {
-  font-size: 1rem;
   color: #5a4a56;
   margin-bottom: 6px;
+}
+
+.practice-card h3,
+.why-card h3,
+.contact-block h3 {
+  font-size: 1.05rem;
 }
 
 .contact-block p {
@@ -345,6 +360,12 @@ section h2 {
   flex-direction: column;
   gap: 14px;
   margin-top: 0;
+}
+
+.practice-card,
+.why-card,
+.contact-form {
+  box-shadow: 0 6px 18px rgba(40,30,35,0.04);
 }
 
 .form-row {
@@ -433,6 +454,7 @@ a:hover {
 .btn-primary,
 .btn-secondary {
   transition: all 0.15s ease;
+  padding: 13px 24px;
 }
 
 .btn-primary:hover {
@@ -451,12 +473,22 @@ a:hover {
 
 /* Responsive */
 @media (max-width: 900px) {
+  .hero {
+    padding: 70px 0;
+  }
   .hero-grid {
     grid-template-columns: 1fr;
+    gap: 28px;
   }
-
+  .hero-card {
+    padding: 24px;
+  }
   .hero-text h1 {
     font-size: 1.8rem;
+  }
+  .contact-grid {
+    grid-template-columns: 1fr;
+    gap: 32px;
   }
 }
 
@@ -464,21 +496,66 @@ a:hover {
   .header-inner {
     flex-direction: column;
     align-items: flex-start;
+    gap: 14px;
   }
-
+  .site-header {
+    padding: 14px 0;
+  }
   .site-nav .nav-list {
     flex-wrap: wrap;
-    gap: 16px;
+    gap: 14px;
+  }
+  .hero,
+  .about,
+  .practice-areas,
+  .why-choose-us,
+  .contact {
+    padding: 70px 0;
+  }
+  .hero-buttons {
+    flex-direction: column;
+    align-items: flex-start;
   }
 
-  .brand-name {
-    font-size: 1.3rem;
+  .btn-primary,
+  .btn-secondary {
+    width: auto;
   }
-
   .practice-grid,
   .why-grid,
   .contact-grid,
   .form-row {
     grid-template-columns: 1fr;
+  }
+  .contact-form {
+    padding: 22px;
+  }
+  .footer-inner {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    width: 92%;
+  }
+  .hero-text h1 {
+    font-size: 1.7rem;
+  }
+  section h2 {
+    font-size: 1.55rem;
+    margin-bottom: 24px;
+  }
+  .btn-primary,
+  .btn-secondary {
+    padding: 12px 20px;
+  }
+  .hero-card,
+  .practice-card,
+  .why-card,
+  .contact-form {
+    padding: 20px;
   }
 }

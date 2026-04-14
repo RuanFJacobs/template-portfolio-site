@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 80">
+
+  <rect width="340" height="80" rx="10" fill="#5a4a56"></rect>
+
+  <text x="170" y="36" font-size="24" text-anchor="middle" fill="white" font-family="Georgia, serif" font-weight="600">
+    Example Firm
+  </text>
+
+  <text x="170" y="60" font-size="14" text-anchor="middle" fill="#e8dde6" font-family="Arial, sans-serif" letter-spacing="2">
+    LEGAL
+  </text>
+
+</svg>
