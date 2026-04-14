@@ -19,7 +19,7 @@ Simple professional layout including:
 - Responsive design for mobile and desktop
 - Placeholder logo and favicon
 
-![Website Preview](logo/screenshot.pngscreenshot.png)
+<img src="screenshots/screenshot.png" width="700">
 
 ---
 
