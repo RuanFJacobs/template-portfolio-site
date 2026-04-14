@@ -1,4 +1,4 @@
-# Example Firm Legal — Website Template
+# Template Portfolio Site
 
 A clean, responsive one-page website template designed for professional service businesses such as law firms, consultants, and advisors.
 This project demonstrates modern HTML and CSS layout techniques, responsive design, and reusable component structure.
@@ -19,7 +19,7 @@ Simple professional layout including:
 - Responsive design for mobile and desktop
 - Placeholder logo and favicon
 
-![Website Preview](screenshot.png)
+![Website Preview](logo/screenshot.pngscreenshot.png)
 
 ---
 
