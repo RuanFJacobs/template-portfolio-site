@@ -49,7 +49,6 @@ Simple professional layout including:
 ## Project Structure
 
 ```
-project-folder
 ├── index.html
 ├── style.css
 ├── script.js
