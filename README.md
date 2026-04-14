@@ -5,6 +5,10 @@ This project demonstrates modern HTML and CSS layout techniques, responsive desi
 
 ---
 
+## Live Demo
+
+[View Live Site](https://template-portfolio-site-h3ftymakb-ruanfjacobs-projects.vercel.app)
+
 ## Preview
 
 Simple professional layout including:
@@ -91,6 +95,16 @@ To adapt this template for a real client:
 - Adjust color palette if needed
 - Modify practice areas/services content
 - Connect the contact form to a backend or form service
+
+## Future Improvements
+
+- second template variation
+- dark mode version
+- animated scroll effects
+- mobile menu toggle
+- form backend integration
+- multi-page version
+- SCSS version
 
 ---
 
