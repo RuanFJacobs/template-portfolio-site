@@ -19,6 +19,8 @@ Simple professional layout including:
 - Responsive design for mobile and desktop
 - Placeholder logo and favicon
 
+![Website Preview](screenshot.png)
+
 ---
 
 ## Technologies Used
